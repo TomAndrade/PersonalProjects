@@ -1,0 +1,14 @@
+D:\CS\Projects\TesteConsoleDIO\bin\Debug\net8.0\TesteConsoleDIO.exe
+D:\CS\Projects\TesteConsoleDIO\bin\Debug\net8.0\TesteConsoleDIO.deps.json
+D:\CS\Projects\TesteConsoleDIO\bin\Debug\net8.0\TesteConsoleDIO.runtimeconfig.json
+D:\CS\Projects\TesteConsoleDIO\bin\Debug\net8.0\TesteConsoleDIO.dll
+D:\CS\Projects\TesteConsoleDIO\bin\Debug\net8.0\TesteConsoleDIO.pdb
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\TesteConsoleDIO.GeneratedMSBuildEditorConfig.editorconfig
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\TesteConsoleDIO.AssemblyInfoInputs.cache
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\TesteConsoleDIO.AssemblyInfo.cs
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\TesteConsoleDIO.csproj.CoreCompileInputs.cache
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\TesteConsoleDIO.dll
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\refint\TesteConsoleDIO.dll
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\TesteConsoleDIO.pdb
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\TesteConsoleDIO.genruntimeconfig.cache
+D:\CS\Projects\TesteConsoleDIO\obj\Debug\net8.0\ref\TesteConsoleDIO.dll

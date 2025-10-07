@@ -1,0 +1,19 @@
+﻿É convenção no C# que todas as palavras sejam PascalCase. Apenas variáveis, parâmetros ou casos específicos usam camelCase.
+Use "$" para formatar strings. Semelhante ao String.format do Java. Deve ser inserido no início, dentro dos parênteses.
+O nome namespace é como se fosse os packages do Java.
+O nome using é como se fosse o import em Java.
+Todos os tipos primitivos contém o méthodo Parse par conversão. Também é possível usar a classe Convert e escolher o tipo.
+.csproj são arquivos que contém as informações do projeto como versão, build e outros dados.
+.sln são arquivos que carregam um grupo de projetos.
+
+TIPOS DE DADOS:
+- string, char, object e bool
+- byte - 8-bit: 0 até 255;
+- short - 16-bit: -32768 até 32767;
+- decimal - valores decimais com até 29 dígitos: 0.0M; use o decimal para valores mais precisos - insira o M depois;
+- int - tipo inteiro assinado 32-bit: -2_147_483_647 até 2_147_483_647;
+- uint - tipo inteiro não assinado de 32-bit: o dobro do int, mas sem valores negativos;
+- long - 64-bit: um pouco mais de 9 quintilhões;
+- ulong - não assinado de 64-bit: o dobro do long, mas sem valores negativos;
+- float - ponto flutuante simples de 32-bit: 10e38 - insira o F depois;
+- double - ponto flutuante dobrado de 64-bit - 10e308;
