@@ -1,0 +1,12 @@
+ESTE CURSO TRATARÁ APENAS EM TRêS TIPOS DE PROJETO: CONSOLE (DOS), DLLS E WINDOWS FORMS (GUI)
+
+- Rebuild (recompilar) serve para compilar todo o código do zero enquanto o Build (compilar) irá compilar apenas o que foi alterado.
+
+- Um namespace é uma forma de organizar e agrupar classes, interfaces, structs, enums e delegates dentro de um projeto. Ele funciona como uma "gaveta" onde você guarda tipos relacionados, evitando confusão e conflitos de nomes.
+
+- Use Console.ReadKey() para aguardar que o usuário aperte alguma tecla. Geralmente usado para manter o executável aberto, como consoles.
+- Use Console.ReadKey().KeyChar para guardar qual tecla foi apertada. Deve ser armazenada numa variável de mesmo tipo.
+	- Para esconder a tecla que foi pressionada, insira "true": Console.ReadKey(true);
+
+- Assim como no Java, use o \n para pular uma linha. Use \r\n para pular um a linha usando Windows. Apenas para o método Write.
+
