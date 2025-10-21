@@ -10,3 +10,9 @@ ESTE CURSO TRATARÁ APENAS EM TRêS TIPOS DE PROJETO: CONSOLE (DOS), DLLS E WIND
 
 - Assim como no Java, use o \n para pular uma linha. Use \r\n para pular um a linha usando Windows. Apenas para o método Write.
 
+- Delegates são semelhantes a uma variável que pode armazenar um método; trata-se de um tipo que faz referência a um método; similar a um callback em C/ C++; quando chamamos um delegate, todos os métodos que estão referenciados a ele serão chamados.
+- Com delegates é possível criar callbacks, ou seja, uma variável que guarda um método que pode ser executado a qualquer momento;
+- Com delegates conseguimos passar métodos como parâmetro para outros métodos
+- Com delegates podemos chamar várias funcões com somente uma chamada de execução do delegate.
+- O delegate sempre retornará o último método usado.
+
