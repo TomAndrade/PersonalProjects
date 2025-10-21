@@ -111,23 +111,23 @@ namespace DadosCadastraisProjeto4
             dadosUsuario.NumCasa = 0;
             dadosUsuario.NumDocumento = string.Empty;
 
-            if (GetString(ref dadosUsuario.Nome, "Digite seu nome ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
+            if (GetString(ref dadosUsuario.Nome, "\nDigite seu nome ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
             {
                 return;
             }
-            if (GetDate(ref dadosUsuario.data, "Digite a data de nascimento (dd/mm/aaa) ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
+            if (GetDate(ref dadosUsuario.data, "\nDigite a data de nascimento (dd/mm/aaa) ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
             {
                 return;
             }
-            if (GetString(ref dadosUsuario.NomeRua, "Digite o nome da rua ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
+            if (GetString(ref dadosUsuario.NomeRua, "\nDigite o nome da rua ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
             {
                 return;
             }
-            if (GetNumCasa(ref dadosUsuario.NumCasa, "Digite o número da casa ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
+            if (GetNumCasa(ref dadosUsuario.NumCasa, "\nDigite o número da casa ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
             {
                 return;
             }
-            if (GetString(ref dadosUsuario.NumDocumento, "Digite o número do documento ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
+            if (GetString(ref dadosUsuario.NumDocumento, "\nDigite o número do documento ou digite 's' para sair: ") != ResultadoEnum.Sucesso)
             {
                 return;
             }
