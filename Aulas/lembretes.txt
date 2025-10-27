@@ -16,3 +16,9 @@ ESTE CURSO TRATARÁ APENAS EM TRêS TIPOS DE PROJETO: CONSOLE (DOS), DLLS E WIND
 - Com delegates podemos chamar várias funcões com somente uma chamada de execução do delegate.
 - O delegate sempre retornará o último método usado.
 
+- Use o botão intervir durante uma depuração para analisar as ações que estão dentro do método, propriedade, estrutura ou variável.
+- É possível arrastar a seta amarela da depuração para acessar determinados blocos do código sem passar por outros lugares antes.
+
+- Classes internas são classes que só podem ser acessadas pelo assembly, ou seja, outros executáveis não podem acessá-las.
+- Classes privadas só podem ser criadas dentro de outras classes.
+
