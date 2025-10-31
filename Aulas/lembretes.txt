@@ -22,3 +22,5 @@ ESTE CURSO TRATARÁ APENAS EM TRêS TIPOS DE PROJETO: CONSOLE (DOS), DLLS E WIND
 - Classes internas são classes que só podem ser acessadas pelo assembly, ou seja, outros executáveis não podem acessá-las.
 - Classes privadas só podem ser criadas dentro de outras classes.
 
+- Use base() na assinatura de uma classe para aplicar um padrão de inicialização: public class Exemplo: base("1234"){}
+
