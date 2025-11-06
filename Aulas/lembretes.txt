@@ -23,4 +23,11 @@ ESTE CURSO TRATARÁ APENAS EM TRêS TIPOS DE PROJETO: CONSOLE (DOS), DLLS E WIND
 - Classes privadas só podem ser criadas dentro de outras classes.
 
 - Use base() na assinatura de uma classe para aplicar um padrão de inicialização: public class Exemplo: base("1234"){}
+	É como o método super() do Java.
+
+-Eventos em C# são mecanismos que permitem que uma classe notifique outras quando algo acontece. Eles são usados para implementar o padrão publicador/assinante, muito comum em interfaces gráficas e sistemas reativos.
+
+-Você precisa dos dois juntos porque:
+	O delegate define como os métodos devem ser.
+	O evento define quando e quem pode disparar ou se inscrever.
 
