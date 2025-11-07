@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportandoDLL", "ImportandoDLL.csproj", "{99151CCD-CA1B-4D84-94AD-8A5EB8E2833E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99151CCD-CA1B-4D84-94AD-8A5EB8E2833E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99151CCD-CA1B-4D84-94AD-8A5EB8E2833E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99151CCD-CA1B-4D84-94AD-8A5EB8E2833E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99151CCD-CA1B-4D84-94AD-8A5EB8E2833E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A628A6E5-352E-45E1-8CF3-EE9D92F80FFD}
+	EndGlobalSection
+EndGlobal
