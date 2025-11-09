@@ -31,3 +31,5 @@ ESTE CURSO TRATARÁ APENAS EM TRêS TIPOS DE PROJETO: CONSOLE (DOS), DLLS E WIND
 	O delegate define como os métodos devem ser.
 	O evento define quando e quem pode disparar ou se inscrever.
 
+- Use os Timers para definir um tempo em que um determinado método será executado.
+
