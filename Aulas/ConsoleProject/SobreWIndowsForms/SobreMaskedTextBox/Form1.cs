@@ -36,14 +36,7 @@ namespace SobreMaskedTextBox
 
         private void chkboxMercosul_Click(object sender, EventArgs e)
         {
-            if (chkboxMercosul.Checked)
-            {
-                mTBPlacaDeCarro.Mask = "LLL-0000";
-            }
-            else
-            {
-                mTBPlacaDeCarro.Mask = "LLL0L00";
-            }
+
         }
 
         private void buttonVerifica_Click(object sender, EventArgs e)
@@ -52,12 +45,24 @@ namespace SobreMaskedTextBox
             {
                 if (c is MaskedTextBox m && !m.MaskCompleted)
                 {
-                    MessageBox.Show("Existem campos obrigatórios não preenchidos.","Atenção",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                    MessageBox.Show("Existem campos obrigatórios não preenchidos.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
             }
 
             MessageBox.Show("Todos os campos foram preenchidos!");
+        }
+
+        private void chkboxMercosul_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkboxMercosul.Checked)
+            {
+                mTBPlacaDeCarro.Mask = "LLL-0000";
+            }
+            else
+            {
+                mTBPlacaDeCarro.Mask = "LLL0L00";
+            }
         }
     }
 }

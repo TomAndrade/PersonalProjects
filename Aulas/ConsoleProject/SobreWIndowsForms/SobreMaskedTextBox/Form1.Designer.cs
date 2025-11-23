@@ -105,6 +105,7 @@
             chkboxMercosul.TabIndex = 1;
             chkboxMercosul.Text = "Modelo Antigo (BRA2019)";
             chkboxMercosul.UseVisualStyleBackColor = true;
+            chkboxMercosul.CheckedChanged += chkboxMercosul_CheckedChanged;
             chkboxMercosul.Click += chkboxMercosul_Click;
             // 
             // buttonVerifica
