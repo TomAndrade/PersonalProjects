@@ -33,3 +33,4 @@ ESTE CURSO TRATARÁ APENAS EM TRêS TIPOS DE PROJETO: CONSOLE (DOS), DLLS E WIND
 
 - Use os Timers para definir um tempo em que um determinado método será executado.
 
+- WPF (Windows Presentation Foundation) - Framework que utiliza XAML para criar interfaces gráficas.
