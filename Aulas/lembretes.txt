@@ -34,3 +34,4 @@ ESTE CURSO TRATARÁ APENAS EM TRêS TIPOS DE PROJETO: CONSOLE (DOS), DLLS E WIND
 - Use os Timers para definir um tempo em que um determinado método será executado.
 
 - WPF (Windows Presentation Foundation) - Framework que utiliza XAML para criar interfaces gráficas.
+- A diferença entre WindowsForms, WPF, MAUI e Blazor Hybrid é: o primeiro é legado; o segundo é o sucessor espiritual dele; o terceiro é o mais recente, avançado e prático e o quarto é mais voltado à Web.

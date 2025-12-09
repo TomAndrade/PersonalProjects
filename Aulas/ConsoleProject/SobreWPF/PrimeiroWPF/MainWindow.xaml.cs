@@ -20,5 +20,10 @@ namespace PrimeiroWPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            pass1.Visibility = Visibility.Collapsed;
+        }
     }
 }

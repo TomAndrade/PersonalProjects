@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Show" HorizontalAlignment="Center" VerticalAlignment="Top" Height="24" Width="93" RenderTransformOrigin="0.485,0.535" Margin="0,95,0,0" Grid.Column="1" Grid.Row="1" Click="Button_Click"/>
+        <PasswordBox x:Name="pass1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="247"/>
+        <Label Grid.Column="1" Content="Password" HorizontalAlignment="Left" Margin="10,37,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.228,0.515"/>
 
     </Grid>
 </Window>
