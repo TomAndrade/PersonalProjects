@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTelaLogin", "WpfTelaLogin.csproj", "{C5FFDF70-1522-49F3-9F94-991B01A760F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5FFDF70-1522-49F3-9F94-991B01A760F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FFDF70-1522-49F3-9F94-991B01A760F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FFDF70-1522-49F3-9F94-991B01A760F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FFDF70-1522-49F3-9F94-991B01A760F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C392F6DE-17DE-47FC-819D-F5AC9356E6FF}
+	EndGlobalSection
+EndGlobal
