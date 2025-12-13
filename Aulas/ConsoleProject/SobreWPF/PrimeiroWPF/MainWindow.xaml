@@ -17,9 +17,15 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Show" HorizontalAlignment="Center" VerticalAlignment="Top" Height="24" Width="93" RenderTransformOrigin="0.485,0.535" Margin="0,95,0,0" Grid.Column="1" Grid.Row="1" Click="Button_Click"/>
-        <PasswordBox x:Name="pass1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="247"/>
+        <Button Content="Show" HorizontalAlignment="Center" VerticalAlignment="Top" Height="24" Width="93" RenderTransformOrigin="0.485,0.535" Margin="0,95,0,0" Grid.Column="1" Grid.Row="1" Click="Button_Click" IsEnabled="False"/>
+        <PasswordBox x:Name="pass1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="247" IsEnabled="False"/>
         <Label Grid.Column="1" Content="Password" HorizontalAlignment="Left" Margin="10,37,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.228,0.515"/>
+        <DatePicker x:Name="datePicker1" HorizontalAlignment="Center" VerticalAlignment="Center" SelectedDateChanged="datePicker1_SelectedDateChanged"/>
+        <Label x:Name="labelMostraData" Content="&lt;Data selecionada&gt;" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonAbreArquivo" Grid.Column="1" Content="Abrir arquivo..." VerticalAlignment="Center" Click="buttonAbreArquivo_Click" HorizontalAlignment="Center" Width="160"/>
+        <TextBox x:Name="textBoxCaminho" Grid.Column="1" Margin="0,104,0,0" VerticalAlignment="Top" MaxLength="100"/>
+        <Image Margin="4,4,4,4" Grid.Row="2" Source="/Hegemony-Org_2029.jpg"/>
+        <MediaElement Grid.Column="1" Margin="4,4,4,4" Grid.Row="2" Source="/1b6b77b2f18c8a78f9204c84e9849774.gif"/>
 
     </Grid>
 </Window>

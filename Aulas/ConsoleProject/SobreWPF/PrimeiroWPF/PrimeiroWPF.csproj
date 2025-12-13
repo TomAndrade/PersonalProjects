@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Hegemony-Org_2029.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Hegemony-Org_2029.jpg" />
+  </ItemGroup>
+
 </Project>
